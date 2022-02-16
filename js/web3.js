@@ -9,7 +9,7 @@
 
         async function getCurrentAccount() {
             const accounts = await window.web3.eth.getAccounts();
-                myWallet.innerHTML = myWallet.innerHTML+"<h5>"+accounts[0]+"</h5>";
+                myWallet.innerHTML = myWallet.innerHTML+"<span style="font-size: 10px;">"+accounts[0]+"</span>";
              console.log(accounts[0]);
         }
 
